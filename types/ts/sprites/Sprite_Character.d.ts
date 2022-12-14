@@ -1,0 +1,41 @@
+/// <reference path="../../../global.d.ts" />
+export default class Sprite_Character extends Sprite {
+    _character: unknown;
+    _balloonDuration: number;
+    _tilesetId: unknown;
+    _upperBody: typeof Sprite;
+    _lowerBody: typeof Sprite;
+    _tileId: unknown;
+    _characterName: unknown;
+    _characterIndex: unknown;
+    _isBigCharacter: unknown;
+    _bushDepth: unknown;
+    constructor(...args: any[]);
+    initialize(character: any): void;
+    initMembers(): void;
+    setCharacter(character: any): void;
+    checkCharacter(character: any): boolean;
+    update(): void;
+    updateVisibility(): void;
+    isTile(): any;
+    isObjectCharacter(): any;
+    isEmptyCharacter(): boolean;
+    tilesetBitmap(tileId: any): any;
+    updateBitmap(): void;
+    isImageChanged(): boolean;
+    setTileBitmap(): void;
+    setCharacterBitmap(): void;
+    updateFrame(): void;
+    updateTileFrame(): void;
+    updateCharacterFrame(): void;
+    characterBlockX(): number;
+    characterBlockY(): number;
+    characterPatternX(): any;
+    characterPatternY(): number;
+    patternWidth(): any;
+    patternHeight(): any;
+    updateHalfBodySprites(): void;
+    createHalfBodySprites(): void;
+    updatePosition(): void;
+    updateOther(): void;
+}

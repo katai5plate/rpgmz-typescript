@@ -1,0 +1,55 @@
+/// <reference path="../../../global.d.ts" />
+export default class DataManager {
+    _globalInfo: [];
+    static _globalInfo: any;
+    static _errors: any[];
+    static _databaseFiles: {
+        name: string;
+        src: string;
+    }[];
+    static makeEmptyMap: () => void;
+    static isMapObject: (object: any) => boolean;
+    static extractMetadata: (data: any) => void;
+    static isBattleTest: () => any;
+    static isEventTest: () => any;
+    static isSkill: (item: any) => any;
+    static isItem: (item: any) => any;
+    static isWeapon: (item: any) => any;
+    static isArmor: (item: any) => any;
+    static createGameObjects: () => void;
+    static loadSavefileImages: (info: any) => void;
+    static maxSavefiles: () => number;
+    static makeSavename: (savefileId: any) => any;
+    static makeSavefileInfo: () => {};
+    static makeSaveContents: () => {};
+    static extractSaveContents: (contents: any) => void;
+    static correctDataErrors: () => void;
+    constructor();
+    static loadGlobalInfo(): void;
+    static removeInvalidGlobalInfo(): void;
+    static saveGlobalInfo(): void;
+    static isGlobalInfoLoaded(): boolean;
+    static loadDatabase(): void;
+    static loadDataFile(name: any, src: any): void;
+    static onXhrLoad(xhr: any, name: any, src: any, url: any): void;
+    static onXhrError(name: any, src: any, url: any): void;
+    static isDatabaseLoaded(): boolean;
+    static loadMapData(mapId: any): void;
+    static isMapLoaded(): boolean;
+    static onLoad(object: any): void;
+    static extractArrayMetadata(array: any): void;
+    static checkError(): void;
+    static setupNewGame(): void;
+    static setupBattleTest(): void;
+    static setupEventTest(): void;
+    static isAnySavefileExists(): any;
+    static latestSavefileId(): any;
+    static earliestSavefileId(): any;
+    static emptySavefileId(): any;
+    static loadAllSavefileImages(): void;
+    static savefileInfo(savefileId: any): any;
+    static savefileExists(savefileId: any): any;
+    static saveGame(savefileId: any): any;
+    static loadGame(savefileId: any): any;
+    static selectSavefileForNewGame(): void;
+}

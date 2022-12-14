@@ -1,0 +1,45 @@
+/// <reference path="../../../global.d.ts" />
+export default class Window_ShopNumber extends Window_Selectable {
+    _item: unknown;
+    _max: unknown;
+    _price: unknown;
+    _number: unknown;
+    _currencyUnit: unknown;
+    _canRepeat: boolean;
+    _buttons: [];
+    constructor(...args: any[]);
+    initialize(rect: any): void;
+    isScrollEnabled(): boolean;
+    number(): unknown;
+    setup(item: any, max: any, price: any): void;
+    setCurrencyUnit(currencyUnit: any): void;
+    createButtons(): void;
+    placeButtons(): void;
+    totalButtonWidth(): any;
+    buttonSpacing(): number;
+    refresh(): void;
+    drawCurrentItemName(): void;
+    drawMultiplicationSign(): void;
+    multiplicationSign(): string;
+    multiplicationSignX(): number;
+    drawNumber(): void;
+    drawHorzLine(): void;
+    drawTotalPrice(): void;
+    itemNameY(): number;
+    totalPriceY(): number;
+    buttonY(): number;
+    cursorWidth(): number;
+    cursorX(): number;
+    maxDigits(): number;
+    update(): void;
+    playOkSound(): void;
+    processNumberChange(): void;
+    changeNumber(amount: any): void;
+    itemRect(): import("../..").Rectangle;
+    isTouchOkEnabled(): boolean;
+    onButtonUp(): void;
+    onButtonUp2(): void;
+    onButtonDown(): void;
+    onButtonDown2(): void;
+    onButtonOk(): void;
+}
