@@ -9,7 +9,7 @@ npm i katai5plate/rpgmz-typescript
 ```
 
 ```js
-// Apply dts file to JS and prevent error when read as plugin.
+// Apply d.ts files to JS and prevent error when read as plugin.
 try {
   require("rpgmz-typescript/types");
 } catch (e) {}
