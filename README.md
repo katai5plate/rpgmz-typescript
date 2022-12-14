@@ -22,5 +22,5 @@ try {
     }
   }
   window.Window_CustomBase = Window_CustomBase;
-})()
+})();
 ```
