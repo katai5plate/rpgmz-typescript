@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/katai5plate/rpgmz-typescript#readme",
   "dependencies": {
+    "@niokasgami/rpg-maker-mz-typescript": "github:niokasgami/rpg-maker-mz-typescript",
     "pixi.js": "5.3.12"
   }
 }

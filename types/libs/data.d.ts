@@ -1,0 +1,16 @@
+import { RPG } from "@niokasgami/rpg-maker-mz-typescript/lib/RPG";
+export type DataActors = RPG.DataActor[];
+export type DataAnimations = RPG.DataAnimation[];
+export type DataArmors = RPG.DataArmor[];
+export type DataClasses = RPG.DataClass[];
+export type DataCommonEvents = RPG.DataCommonEvent[];
+export type DataEnemies = RPG.DataEnemy[];
+export type DataItems = RPG.DataItem[];
+export type DataMap = RPG.DataMap;
+export type DataMapInfos = RPG.DataMapInfo[];
+export type DataSkills = RPG.DataSkill[];
+export type DataStates = RPG.DataState[];
+export type DataSystem = RPG.DataSystem;
+export type DataTilesets = RPG.DataTileset[];
+export type DataTroops = RPG.DataTroop[];
+export type DataWeapons = RPG.DataWeapon[];
