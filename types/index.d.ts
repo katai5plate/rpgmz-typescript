@@ -158,6 +158,7 @@ import Window_GameEnd from "./ts/windows/Window_GameEnd";
 import Window_DebugRange from "./ts/windows/Window_DebugRange";
 import Window_DebugEdit from "./ts/windows/Window_DebugEdit";
 import * as Data from "./libs/data";
+import { Package } from "./libs/package";
 export {
   PIXI,
   Utils,
@@ -318,4 +319,5 @@ export {
   Window_DebugRange,
   Window_DebugEdit,
   Data,
+  Package,
 };
