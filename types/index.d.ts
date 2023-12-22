@@ -321,3 +321,38 @@ export {
   Data,
   Package,
 };
+export const $dataActors: Data.Actors;
+export const $dataClasses: Data.Classes;
+export const $dataSkills: Data.Skills;
+export const $dataItems: Data.Items;
+export const $dataWeapons: Data.Weapons;
+export const $dataArmors: Data.Armors;
+export const $dataEnemies: Data.Enemies;
+export const $dataTroops: Data.Troops;
+export const $dataStates: Data.States;
+export const $dataAnimations: Data.Animations;
+export const $dataTilesets: Data.Tilesets;
+export const $dataCommonEvents: Data.CommonEvents;
+export const $dataSystem: Data.System;
+export const $dataMapInfos: Data.MapInfos;
+export const $dataMap: Data.Map;
+export const $gameTemp: Game_Temp;
+export const $gameSystem: Game_System;
+export const $gameScreen: Game_Screen;
+export const $gameTimer: Game_Timer;
+export const $gameMessage: Game_Message;
+export const $gameSwitches: Game_Switches;
+export const $gameVariables: Game_Variables;
+export const $gameSelfSwitches: Game_SelfSwitches;
+export const $gameActors: Game_Actors;
+export const $gameParty: Game_Party;
+export const $gameTroop: Game_Troop;
+export const $gameMap: Game_Map;
+export const $gamePlayer: Game_Player;
+export const $testEvent: any;
+export const $plugins: {
+  name: string;
+  status: boolean;
+  description: string;
+  parameters: any;
+}[];
