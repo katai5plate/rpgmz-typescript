@@ -3,6 +3,7 @@ export default class Sprite_Destination extends Sprite {
     _frameCount: number;
     constructor(...args: any[]);
     initialize(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     update(): void;
     createBitmap(): void;

@@ -11,6 +11,7 @@ export default class Sprite_Gauge extends Sprite {
     constructor(...args: any[]);
     initialize(): void;
     initMembers(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     createBitmap(): void;
     bitmapWidth(): number;

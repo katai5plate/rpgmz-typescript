@@ -3,6 +3,7 @@ export default class Sprite_Timer extends Sprite {
     _seconds: unknown;
     constructor(...args: any[]);
     initialize(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     createBitmap(): void;
     fontFace(): any;

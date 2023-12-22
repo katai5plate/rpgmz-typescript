@@ -18,6 +18,7 @@ export default class Window_Command extends Window_Selectable {
     selectSymbol(symbol: any): void;
     findExt(ext: any): number;
     selectExt(ext: any): void;
+    //@ts-expect-error
     drawItem(index: any): void;
     itemTextAlign(): string;
     isOkEnabled(): boolean;

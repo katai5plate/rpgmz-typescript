@@ -6,6 +6,7 @@ export default class Game_Enemy extends Game_Battler {
     _screenX: unknown;
     _screenY: unknown;
     constructor(...args: any[]);
+    //@ts-expect-error
     initialize(enemyId: any, x: any, y: any): void;
     initMembers(): void;
     setup(enemyId: any, x: any, y: any): void;
@@ -17,6 +18,7 @@ export default class Game_Enemy extends Game_Battler {
     enemyId(): unknown;
     enemy(): any;
     traitObjects(): any;
+    //@ts-expect-error
     paramBase(paramId: any): any;
     exp(): any;
     gold(): any;
@@ -34,6 +36,7 @@ export default class Game_Enemy extends Game_Battler {
     setLetter(letter: any): void;
     setPlural(plural: any): void;
     performActionStart(action: any): void;
+    //@ts-expect-error
     performAction(action: any): void;
     performActionEnd(): void;
     performDamage(): void;

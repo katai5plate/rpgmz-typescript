@@ -26,6 +26,7 @@ export default class Window_Base extends Window {
     update(): void;
     updateOpen(): void;
     updateClose(): void;
+    //@ts-expect-error
     open(): void;
     close(): void;
     isOpening(): boolean;

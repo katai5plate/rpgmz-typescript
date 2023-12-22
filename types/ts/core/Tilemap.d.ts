@@ -54,6 +54,7 @@ export default class Tilemap extends PIXI.Container {
      * @type number
      * @name Tilemap#width
      */
+    //@ts-expect-error
     get width(): any;
     set width(value: any);
     /**
@@ -62,6 +63,7 @@ export default class Tilemap extends PIXI.Container {
      * @type number
      * @name Tilemap#height
      */
+    //@ts-expect-error
     get height(): any;
     set height(value: any);
     /**

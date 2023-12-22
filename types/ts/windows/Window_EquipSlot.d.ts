@@ -10,6 +10,7 @@ export default class Window_EquipSlot extends Window_StatusBase {
     maxItems(): any;
     item(): any;
     itemAt(index: any): any;
+    //@ts-expect-error
     drawItem(index: any): void;
     slotNameWidth(): number;
     isEnabled(index: any): any;

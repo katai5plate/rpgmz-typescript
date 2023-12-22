@@ -16,6 +16,7 @@ export default class Window_ItemList extends Window_Selectable {
     isEnabled(item: any): any;
     makeItemList(): void;
     selectLast(): void;
+    //@ts-expect-error
     drawItem(index: any): void;
     numberWidth(): any;
     drawItemNumber(item: any, x: any, y: any, width: any): void;

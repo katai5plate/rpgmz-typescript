@@ -34,6 +34,7 @@ export default class Spriteset_Map extends Spriteset_Base {
     createBalloon(request: any): void;
     removeBalloon(sprite: any): void;
     removeAllBalloons(): void;
+    //@ts-expect-error
     findTargetSprite(target: any): never;
     animationBaseDelay(): number;
 }

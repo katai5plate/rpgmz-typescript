@@ -9,6 +9,7 @@ export default class Window_EquipStatus extends Window_StatusBase {
     refresh(): void;
     setTempActor(tempActor: any): void;
     drawAllParams(): void;
+    //@ts-expect-error
     drawItem(x: any, y: any, paramId: any): void;
     drawParamName(x: any, y: any, paramId: any): void;
     drawCurrentParam(x: any, y: any, paramId: any): void;

@@ -8,6 +8,7 @@ export default class Window_MenuStatus extends Window_StatusBase {
     numVisibleRows(): number;
     itemHeight(): number;
     actor(index: any): any;
+    //@ts-expect-error
     drawItem(index: any): void;
     drawPendingItemBackground(index: any): void;
     drawItemImage(index: any): void;

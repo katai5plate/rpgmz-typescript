@@ -12,7 +12,9 @@ export default class Window_NumberInput extends Window_Selectable {
     updatePlacement(): void;
     windowWidth(): number;
     windowHeight(): number;
+    //@ts-expect-error
     maxCols(): unknown;
+    //@ts-expect-error
     maxItems(): unknown;
     itemWidth(): number;
     itemRect(index: any): any;
@@ -30,6 +32,7 @@ export default class Window_NumberInput extends Window_Selectable {
     isOkEnabled(): boolean;
     isCancelEnabled(): boolean;
     processOk(): void;
+    //@ts-expect-error
     drawItem(index: any): void;
     onButtonUp(): void;
     onButtonDown(): void;

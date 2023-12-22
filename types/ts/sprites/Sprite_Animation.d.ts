@@ -17,6 +17,7 @@ export default class Sprite_Animation extends Sprite {
     constructor(...args: any[]);
     initialize(): void;
     initMembers(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     setup(targets: any, animation: any, mirror: any, delay: any, previous: any): void;
     update(): void;

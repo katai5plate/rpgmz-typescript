@@ -6,6 +6,7 @@ export default class Sprite_Damage extends Sprite {
     _colorType: unknown | number;
     constructor(...args: any[]);
     initialize(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     setup(target: any): void;
     setupCriticalEffect(): void;

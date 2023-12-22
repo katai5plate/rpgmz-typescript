@@ -14,6 +14,7 @@ export default class Window_BattleStatus extends Window_StatusBase {
     update(): void;
     preparePartyRefresh(): void;
     performPartyRefresh(): void;
+    //@ts-expect-error
     drawItem(index: any): void;
     drawItemImage(index: any): void;
     drawItemStatus(index: any): void;

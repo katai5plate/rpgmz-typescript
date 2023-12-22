@@ -12,6 +12,7 @@ export default class Window_DebugRange extends Window_Selectable {
     mode(index: any): "switch" | "variable";
     topId(index: any): number;
     isSwitchMode(index: any): boolean;
+    //@ts-expect-error
     drawItem(index: any): void;
     isCancelTriggered(): boolean;
     processCancel(): void;

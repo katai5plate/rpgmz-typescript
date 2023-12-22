@@ -21,6 +21,7 @@ export default class Game_Actor extends Game_Battler {
     _stateSteps: {};
     constructor(...args: any[]);
     get level(): unknown;
+    //@ts-expect-error
     initialize(actorId: any): void;
     initMembers(): void;
     setup(actorId: any): void;
@@ -69,6 +70,7 @@ export default class Game_Actor extends Game_Battler {
     optimizeEquipments(): void;
     bestEquipItem(slotId: any): any;
     calcEquipItemPerformance(item: any): any;
+    //@ts-expect-error
     isSkillWtypeOk(skill: any): boolean;
     isWtypeEquipped(wtypeId: any): boolean;
     refresh(): void;
@@ -88,6 +90,7 @@ export default class Game_Actor extends Game_Battler {
     attackElements(): any;
     hasNoWeapons(): boolean;
     bareHandsElementId(): number;
+    //@ts-expect-error
     paramBase(paramId: any): any;
     paramPlus(paramId: any): any;
     attackAnimationId1(): any;
@@ -113,6 +116,7 @@ export default class Game_Actor extends Game_Battler {
     setBattlerImage(battlerName: any): void;
     isSpriteVisible(): any;
     performActionStart(action: any): void;
+    //@ts-expect-error
     performAction(action: any): void;
     performActionEnd(): void;
     performAttack(): void;

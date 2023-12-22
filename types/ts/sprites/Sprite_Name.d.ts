@@ -6,6 +6,7 @@ export default class Sprite_Name extends Sprite {
     constructor(...args: any[]);
     initialize(): void;
     initMembers(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     createBitmap(): void;
     bitmapWidth(): number;
@@ -15,6 +16,7 @@ export default class Sprite_Name extends Sprite {
     setup(battler: any): void;
     update(): void;
     updateBitmap(): void;
+    //@ts-expect-error
     name(): any;
     textColor(): any;
     outlineColor(): string;

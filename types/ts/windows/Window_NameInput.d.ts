@@ -21,6 +21,7 @@ export default class Window_NameInput extends Window_Selectable {
     isPageChange(): boolean;
     isOk(): boolean;
     itemRect(index: any): import("../..").Rectangle;
+    //@ts-expect-error
     drawItem(index: any): void;
     updateCursor(): void;
     isCursorMovable(): any;

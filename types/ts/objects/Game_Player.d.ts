@@ -34,6 +34,7 @@ export default class Game_Player extends Game_Character {
     isInAirship(): boolean;
     isInVehicle(): boolean;
     isNormal(): boolean;
+    //@ts-expect-error
     isDashing(): unknown;
     isDebugThrough(): any;
     isCollided(x: any, y: any): any;
@@ -51,6 +52,7 @@ export default class Game_Player extends Game_Character {
     canMove(): boolean;
     getInputDirection(): any;
     executeMove(direction: any): void;
+    //@ts-expect-error
     update(sceneActive: any): void;
     updateDashing(): void;
     isDashButtonPressed(): boolean;
@@ -70,6 +72,7 @@ export default class Game_Player extends Game_Character {
     encounterProgressValue(): number;
     checkEventTriggerHere(triggers: any): void;
     checkEventTriggerThere(triggers: any): void;
+    //@ts-expect-error
     checkEventTriggerTouch(x: any, y: any): void;
     canStartLocalEvents(): boolean;
     getOnOffVehicle(): boolean;

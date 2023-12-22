@@ -5,6 +5,7 @@ export default class Window_DebugEdit extends Window_Selectable {
     constructor(...args: any[]);
     initialize(rect: any): void;
     maxItems(): number;
+    //@ts-expect-error
     drawItem(index: any): void;
     itemName(dataId: any): any;
     itemStatus(dataId: any): string;

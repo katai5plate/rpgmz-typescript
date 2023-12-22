@@ -17,6 +17,7 @@ export default class Window_SkillList extends Window_Selectable {
     isEnabled(item: any): any;
     makeItemList(): void;
     selectLast(): void;
+    //@ts-expect-error
     drawItem(index: any): void;
     costWidth(): any;
     drawSkillCost(skill: any, x: any, y: any, width: any): void;

@@ -9,6 +9,7 @@ export default class Spriteset_Base extends Sprite {
     _overallColorFilter: typeof ColorFilter;
     constructor(...args: any[]);
     initialize(): void;
+    //@ts-expect-error
     destroy(options: any): void;
     loadSystemImages(): void;
     createLowerLayer(): void;

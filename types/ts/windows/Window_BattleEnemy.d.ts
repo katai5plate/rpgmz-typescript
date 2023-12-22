@@ -7,6 +7,7 @@ export default class Window_BattleEnemy extends Window_Selectable {
     maxItems(): any;
     enemy(): any;
     enemyIndex(): any;
+    //@ts-expect-error
     drawItem(index: any): void;
     show(): void;
     hide(): void;

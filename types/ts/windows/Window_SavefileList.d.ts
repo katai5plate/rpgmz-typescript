@@ -8,6 +8,7 @@ export default class Window_SavefileList extends Window_Selectable {
     maxItems(): number;
     numVisibleRows(): number;
     itemHeight(): number;
+    //@ts-expect-error
     drawItem(index: any): void;
     indexToSavefileId(index: any): any;
     savefileIdToIndex(savefileId: any): number;

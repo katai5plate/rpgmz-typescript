@@ -6,6 +6,7 @@ export default class Window_StatusEquip extends Window_StatusBase {
     setActor(actor: any): void;
     maxItems(): any;
     itemHeight(): number;
+    //@ts-expect-error
     drawItem(index: any): void;
     drawItemBackground(): void;
 }

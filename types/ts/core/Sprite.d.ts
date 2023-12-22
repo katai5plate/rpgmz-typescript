@@ -34,6 +34,7 @@ export default class Sprite extends PIXI.Sprite {
      * @type number
      * @name Sprite#width
      */
+    //@ts-expect-error
     get width(): any;
     set width(value: any);
     /**
@@ -42,6 +43,7 @@ export default class Sprite extends PIXI.Sprite {
      * @type number
      * @name Sprite#height
      */
+    //@ts-expect-error
     get height(): any;
     set height(value: any);
     /**
@@ -58,6 +60,7 @@ export default class Sprite extends PIXI.Sprite {
      * @type number
      * @name Sprite#blendMode
      */
+    //@ts-expect-error
     get blendMode(): any;
     set blendMode(value: any);
     /**

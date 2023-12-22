@@ -59,6 +59,7 @@ export default class Window extends PIXI.Container {
      * @type number
      * @name Window#width
      */
+    //@ts-expect-error
     get width(): any;
     set width(value: any);
     /**
@@ -67,6 +68,7 @@ export default class Window extends PIXI.Container {
      * @type number
      * @name Window#height
      */
+    //@ts-expect-error
     get height(): any;
     set height(value: any);
     /**

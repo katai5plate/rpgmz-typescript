@@ -5,6 +5,7 @@ export default class Sprite_Button extends Sprite_Clickable {
     _coldFrame: typeof Rectangle;
     _hotFrame: typeof Rectangle;
     constructor(...args: any[]);
+    //@ts-expect-error
     initialize(buttonType: any): void;
     setupFrames(): void;
     blockWidth(): number;

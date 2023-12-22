@@ -11,6 +11,7 @@ export default class Sprite_Battler extends Sprite_Clickable {
     _movementDuration: unknown;
     _selectionEffectCount: number;
     constructor(...args: any[]);
+    //@ts-expect-error
     initialize(battler: any): void;
     initMembers(): void;
     setBattler(battler: any): void;

@@ -13,6 +13,7 @@ export default class Game_Event extends Game_Character {
     _locked: boolean;
     _interpreter: typeof Game_Interpreter;
     constructor(...args: any[]);
+    //@ts-expect-error
     initialize(mapId: any, eventId: any): void;
     initMembers(): void;
     eventId(): unknown;
@@ -44,6 +45,7 @@ export default class Game_Event extends Game_Character {
     setupPageSettings(): void;
     isOriginalPattern(): boolean;
     resetPattern(): void;
+    //@ts-expect-error
     checkEventTriggerTouch(x: any, y: any): void;
     checkEventTriggerAuto(): void;
     update(): void;

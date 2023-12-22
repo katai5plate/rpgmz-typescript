@@ -21,6 +21,7 @@ export default class Spriteset_Battle extends Spriteset_Base {
     compareEnemySprite(a: any, b: any): number;
     createActors(): void;
     updateActors(): void;
+    //@ts-expect-error
     findTargetSprite(target: any): any;
     battlerSprites(): any;
     isEffecting(): any;

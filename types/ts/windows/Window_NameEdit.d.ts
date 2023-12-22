@@ -8,6 +8,7 @@ export default class Window_NameEdit extends Window_StatusBase {
     constructor(...args: any[]);
     initialize(rect: any): void;
     setup(actor: any, maxLength: any): void;
+    //@ts-expect-error
     name(): unknown;
     restoreDefault(): boolean;
     add(ch: any): boolean;

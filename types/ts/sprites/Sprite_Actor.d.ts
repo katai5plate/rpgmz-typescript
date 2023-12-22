@@ -86,6 +86,7 @@ export default class Sprite_Actor extends Sprite_Battler {
     constructor(...args: any[]);
     initialize(battler: any): void;
     initMembers(): void;
+    //@ts-expect-error
     mainSprite(): typeof import("../..").Sprite;
     createMainSprite(): void;
     createShadowSprite(): void;

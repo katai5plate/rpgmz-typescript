@@ -3,6 +3,7 @@ export default class Sprite_Picture extends Sprite_Clickable {
     _pictureId: unknown;
     _pictureName: unknown;
     constructor(...args: any[]);
+    //@ts-expect-error
     initialize(pictureId: any): void;
     picture(): any;
     update(): void;

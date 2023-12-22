@@ -16,11 +16,15 @@ export default class Window_Scrollable extends Window_Base {
     constructor(...args: any[]);
     initialize(rect: any): void;
     clearScrollStatus(): void;
+    //@ts-expect-error
     scrollX(): unknown;
+    //@ts-expect-error
     scrollY(): unknown;
     scrollBaseX(): unknown;
     scrollBaseY(): unknown;
+    //@ts-expect-error
     scrollTo(x: any, y: any): void;
+    //@ts-expect-error
     scrollBy(x: any, y: any): void;
     smoothScrollTo(x: any, y: any): void;
     smoothScrollBy(x: any, y: any): void;

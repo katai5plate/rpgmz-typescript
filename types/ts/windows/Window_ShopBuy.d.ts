@@ -18,6 +18,7 @@ export default class Window_ShopBuy extends Window_Selectable {
     refresh(): void;
     makeItemList(): void;
     goodsToItem(goods: any): any;
+    //@ts-expect-error
     drawItem(index: any): void;
     priceWidth(): number;
     setStatusWindow(statusWindow: any): void;

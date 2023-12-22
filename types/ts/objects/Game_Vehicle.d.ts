@@ -6,6 +6,7 @@ export default class Game_Vehicle extends Game_Character {
     _driving: boolean;
     _bgm: unknown;
     constructor(...args: any[]);
+    //@ts-expect-error
     initialize(type: any): void;
     initMembers(): void;
     isBoat(): boolean;
